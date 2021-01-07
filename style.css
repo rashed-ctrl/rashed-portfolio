@@ -1,0 +1,383 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #6C6C6C;
+}
+
+
+.bg-light{
+    background: #f8f9fc;
+}
+
+
+.btn {
+    background-image: linear-gradient(180deg, #F46060, #FF8063);
+    display: inline-block;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.heading-title{
+    margin: 0;
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+    font-size: 48px;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.heading-subtitle{
+    padding-bottom: 30px;
+    margin: 0;
+
+}
+
+.text-primary{
+    color: #F46060;
+}
+
+.section-padding{
+    padding: 100px 0;
+}
+
+.mid-section{
+    max-width: 1170px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.col-half{
+    width: 50%;
+    float: left;
+}
+
+
+/* Menubar */
+
+.menubar{
+    text-align: right;
+    padding: 20px 0;
+}
+
+.menubar ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menubar ul li{
+    display: inline-block;
+}
+
+.menubar ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: 600;
+    color: #6C6C6C;
+    text-transform: uppercase;
+}
+
+.menubar ul li a:hover{
+    color: orange;
+    transition: all linear .4s;
+}
+}
+
+/* Intro Section */
+
+.intro-section{
+    padding-top: 40px;
+}
+
+.intro-text h2{
+    margin: 0;
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+    font-size: 64px;
+    line-height: 1.2;
+    padding-bottom: 20px;
+}
+
+.intro-text p {
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+.intro-text h2 span{
+    color: #F46060;
+    display: block;
+}
+
+.intro-img img{
+    width: 80%;
+}
+
+
+
+/* About Section */
+.about-info{
+    margin-top: 50px;
+    padding-left: 50px;
+}
+.about-img img{
+    width: 70%;
+}
+
+.about-section{
+    padding-bottom: 100px;
+}
+
+
+/* Works Section  */
+.works__block {
+    width: 29.33%;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 2%;
+    float: left;
+    box-shadow:0 7px 15px rgba(0,0,0,.15);
+}
+
+
+.works__block h3 {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 22px;
+    color: #363958;
+}
+
+.works__block p{
+    margin: 0;
+}
+
+
+.works__block img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+
+
+/* Articles */
+.articles{
+    padding: 100px 0;
+}
+
+.articles__block{
+    width: 29.33%;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 2%;
+    float: left;
+    box-shadow:0 7px 15px rgba(0,0,0,.15)!important;
+    
+}
+
+
+.articles__block h3 {
+    margin: 0;
+    padding-top: 10px;
+    font-size: 18px;
+    color: #363958;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.articles__block h4{
+    letter-spacing: 2px;
+    font-family: 'Bebas Neue', cursive;
+    color: #777;
+    padding: 20px 0;
+}
+
+
+.articles__block p{
+    margin: 0;
+    padding-bottom: 20px;
+    text-align: justify;
+    
+}
+
+.btn.read-more {
+    padding: 5px 10px;
+    letter-spacing: 2px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+/* Inqiry Scetion */
+
+.inquiry{
+    padding-top: 100px;
+}
+
+.inquiry-box{
+    width: 70%;
+    margin: auto;
+    padding: 80px 60px;
+    border-radius: 30px;
+    overflow: hidden;
+    background: url('img/contact.png') no-repeat scroll center center /cover;
+}
+
+.inquiry-box h2{
+    font-size: 64px;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.inquiry-btn {
+    text-align: right;
+    margin-top: 27px;
+}
+.footer_form {
+    padding: 70px 0;
+    background: transparent;
+}
+
+.footer_form form input {
+    width: 637px;
+    height: 50px;
+    text-align: center;
+    margin-left: 256px;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #898989;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.footer_form form input::placeholder {
+    color: #7e8287;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.footer_form form label {
+    display: block;
+    text-align: center;
+    color: #7e8287;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.footer_form form textarea {
+    width: 917px;
+    height: 90px;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #898989;
+    border-top: 1px solid #898989;
+    resize: none;
+    margin-left: 116px;
+    margin-top: 12px;
+    color: #fff;
+}
+
+.footer_form form button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 67px;
+    padding: 0 65px;
+    line-height: 47px;
+    background: #cfc91d;
+    border: 0;
+    color: #0b1016;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.footer_bottom{
+    padding: 35px 0 27px;
+    background: transparent;
+    text-align: center;
+}
+
+.footer_bottom p{
+    color: #fff;
+}
+
+/* Footer Section */
+
+.footer{
+    text-align: center;
+    padding: 100px 0;
+}
+
+.footer h4{
+    color: #696871;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    padding-top: 0;
+    padding: 0px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.footer .email a{
+    font-size: 36px;
+    color: #363958;
+    padding: 20px 0;
+    margin: 0;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.footer-social ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-social ul li {
+    display: inline-block;
+}
+
+.footer-social ul li a {
+    display: block;
+    padding: 10px;
+}
+
+.footer-social ul li a img {
+    width: 40px;
+    height: 40px;
+}
+
+.copyright{
+    padding-top: 20px;
+}
+.copyright a{
+    display: inline-block;
+    color: #F46060;
+    text-decoration: none;
+}
